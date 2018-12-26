@@ -22,6 +22,7 @@ body{
 	width: 125px;
 	display: inline-block;
 	cursor: not-allowed;
+	background-repeat: no-repeat;
 }
 
 .player{

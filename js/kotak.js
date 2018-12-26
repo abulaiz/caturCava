@@ -2,6 +2,9 @@ function pindahKotak(posisi_asal, posisi_baru){
 	kotaks[posisi_asal].classList.remove('player');
 	kotaks[posisi_asal].classList.remove('terpilih');
 
+	player[posisi_asal] = false;
+	player[posisi_baru] = true;
+
 	kotaks[posisi_baru].classList.add('player');
 	for(let i=0; i<sugestedBox.length; i++){
 		kotaks[sugestedBox[i]].classList.remove('directTo');
